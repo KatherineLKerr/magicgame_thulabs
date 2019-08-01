@@ -2,12 +2,8 @@ import enums.Creature;
 import org.junit.Before;
 import org.junit.Test;
 import people.Warlock;
-import people.Wizard;
-
 import static enums.Spell.SUGAR;
-import static enums.Weapon.BIGROCK;
 import static org.junit.Assert.assertEquals;
-
 public class WarlockTest {
 
     private Warlock warlock;

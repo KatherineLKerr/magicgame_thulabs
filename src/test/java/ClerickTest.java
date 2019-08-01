@@ -11,11 +11,18 @@ public class ClerickTest {
 
     @Before
     public void setUp() {
-        clerick = new Clerick("Papa", HealingTool.HEALINGCROSS);
+        clerick = new Clerick("Papa", 10, HealingTool.HEALINGCROSS);
     }
 
     @Test
     public void name() {
         assertEquals("Papa", clerick.getName());
     }
+
+    @Test
+    public void hasHealth() {
+        assertEquals(10, clerick.getHealth());
+    }
+
+    
 }

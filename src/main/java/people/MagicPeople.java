@@ -8,8 +8,8 @@ public abstract class MagicPeople extends Person {
     private Creature creature;
     private Spell spell;
 
-    public MagicPeople(String name, Creature creature, Spell spell) {
-        super(name);
+    public MagicPeople(String name, int health, Creature creature, Spell spell) {
+        super(name, health);
         this.creature = creature;
         this.spell = spell;
     }

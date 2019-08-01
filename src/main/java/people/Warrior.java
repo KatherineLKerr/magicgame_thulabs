@@ -7,8 +7,8 @@ public abstract class Warrior extends Person {
     private Weapon weapon;
 
 
-    public Warrior(String name, int health, Weapon weapon) {
-        super(name, health);
+    public Warrior(String name, Weapon weapon) {
+        super(name);
         this.weapon = weapon;
     }
 }

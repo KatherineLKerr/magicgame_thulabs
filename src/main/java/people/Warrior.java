@@ -1,6 +1,8 @@
+package people;
+
 import enums.Weapon;
 
-public abstract class Warrior extends Person{
+public abstract class Warrior extends Person {
 
     private Weapon weapon;
 

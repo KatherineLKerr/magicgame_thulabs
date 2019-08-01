@@ -1,3 +1,5 @@
+package people;
+
 import enums.HealingTool;
 
 public class Clerick extends Person {

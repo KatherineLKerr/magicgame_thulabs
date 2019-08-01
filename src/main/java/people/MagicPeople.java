@@ -1,3 +1,5 @@
+package people;
+
 import enums.Creature;
 import enums.Spell;
 

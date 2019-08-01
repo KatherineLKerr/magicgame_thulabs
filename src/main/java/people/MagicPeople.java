@@ -5,16 +5,20 @@ import enums.Spell;
 
 public abstract class MagicPeople extends Person {
 
-    private Creature creature;
-    private Spell spell;
+    protected Creature creature;
+    protected Spell spell;
 
-    public MagicPeople(String name,Creature creature, Spell spell) {
+    public MagicPeople(String name, Creature creature, Spell spell) {
         super(name);
-        this.health = 15;
         this.creature = creature;
         this.spell = spell;
     }
 
+    public Creature getCreature() {
+        return creature;
+    }
 
-
+    public Spell getSpell() {
+        return spell;
+    }
 }
